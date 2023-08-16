@@ -9,12 +9,17 @@ for i in range(ele):
   print("\n")
   name.append(n)
   num.append(no)
-search=input("Enter name to find contact number -")
+  
+search=input("Enter name to find contact number -\n")
+
 for i in range(ele):
   if search==name[i]:
-    flag=flag+1
+   flag=flag+1
+   print("\nName:",search," number:",num[i])
+
 if flag==1:
    print("--Found--\n")
-   print("Name:",search," number:",num[i])
 else:
   print(" --Not found--")
+
+
