@@ -5,8 +5,12 @@ count=0
 for i in c:
   if i in digit:
     count=count+1
-if count==len(c):
-  print("It is a digit")
-else:
-  print("It is not a digit")
+print("it is digit" if count==len(c) else "not a digit")
+
+# if count==len(c):
+#   print("It is a digit")
+# else:
+#   print("It is not a digit")
   
+
+
